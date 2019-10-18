@@ -68,6 +68,7 @@ img {
 hr {
     overflow: visible; /* For IE */
     padding: 0;
+    vertical-align: baseline;
     border: none;
     border-top: 4px double #202020;
     color: #202020;
