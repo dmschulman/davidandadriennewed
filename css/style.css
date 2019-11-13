@@ -51,9 +51,28 @@ h3 {
     margin: 0 0 20px 0;
 }
 
+a {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #202020;
+    -webkit-transition: all .2s linear 0s;
+    -moz-transition: all .2s linear 0s;
+    -ms-transition: all .2s linear 0s;
+    -o-transition: all .2s linear 0s;
+    transition: all .2s linear 0s;
+}
+
+a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #666666;
+}
+
 p {
     font-family: 'Raleway', sans-serif;
-    line-height: 1;
+    line-height: 1.5;
+    margin: 0 auto;
+    letter-spacing: 1px;
 }
 
 li {
@@ -247,25 +266,48 @@ ul.row li {
     line-height: 1;
     font-family: 'Prata', serif;
     font-weight: 400;
+    width: 100%;
 }
 
 #countdown p {
     line-height: 1;
     font-family: 'Prata', serif;
-    margin: 0 0 10px 0;
+    margin: 0 auto 10px;
+    width: 100%;
 }
 
-p.intro {
+p.intro,
+p.outro {
     text-transform: uppercase;
     line-height: 1.5;
     margin: 0 auto;
-    padding: 20px 0;
     letter-spacing: 1.5px;
+}
+
+p.intro {
+    padding: 20px 0;
+}
+
+p.detail {
+    font-style: italic;
+}
+
+p.outro {
+    padding: 0;
+}
+
+p:last-child.outro {
+    padding: 0 0 50px 0;
 }
 
 p.venue {
     font-weight: 800;
-    margin: 0 0 5px 0;
+    margin: 0 auto 5px;
+    line-height: 1;
+}
+
+p.loc {
+    line-height: 1;
 }
 
 p.loc:after {
@@ -328,8 +370,16 @@ p.loc:after {
     display: none !important;
 } */
 
+#registry ul.row li {
+    max-width: 300px;
+}
+
 #registry ul.row a {
     display: block;
+}
+
+#registry ul.row a:hover {
+    opacity: .8;
 }
 
 #registry ul.row img {
@@ -391,7 +441,7 @@ p.loc:after {
         font-size: 3rem;
     }
 
-    p.intro {
+    p {
         width: 50%;
     }
 
@@ -410,10 +460,6 @@ p.loc:after {
     #celebration ul.row li:nth-child(2) {
         padding: 0 12%;
     } */
-
-    #registry ul.row li {
-        width: 22%;
-    }
 }
 
 @media only screen and (max-width:1600px) and (min-width:1025px) /* Tablet */ {
@@ -460,7 +506,7 @@ p.loc:after {
         font-size: 3vw;
     }
 
-    p.intro {
+    p {
         width: 70%;
     }
 
@@ -530,7 +576,7 @@ p.loc:after {
         font-size: 2rem;
     }
 
-    p.intro {
+    p {
         width: 80%;
     }
 
