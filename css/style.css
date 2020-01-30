@@ -104,7 +104,6 @@ hr {
 
 hr:after {
     content: '❧';
-    background-color: moccasin;
     display: inline-block;
     padding: 10px 0;
     margin: 0;
@@ -453,6 +452,10 @@ p.loc:after {
     #celebration ul.row li {
         width: 30%;
     }
+    
+    hr:after {
+        background-color: moccasin;
+    }
 
     /* ul.row li {
         display: inline-block;
@@ -518,6 +521,10 @@ p.loc:after {
     #celebration ul.row li {
         width: 30%;
     }
+    
+    hr:after {
+        background-color: linen;
+    }
 
     /* ul.row li {
         display: inline-block;
@@ -552,7 +559,7 @@ p.loc:after {
     }
 
     #hero .splash .announcement {
-        background: peachpuff;
+        background: moccasin;
         padding: 40px 30px 0 30px;
     }
 
@@ -568,7 +575,7 @@ p.loc:after {
 
     #countdown {
         font-size: 2.5rem;
-        background: peachpuff;
+        background: moccasin;
         color :#202020;
         padding: 10px 30px 30px 30px;
     }
