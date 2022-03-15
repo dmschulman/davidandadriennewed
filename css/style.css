@@ -233,7 +233,6 @@ ul.row li {
 }
 
 #hero .splash {
-    /* background-image: url('splash-low.jpg'); */
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
@@ -315,6 +314,7 @@ p:last-child.outro {
 
 #celebration ul.row p.loc {
     line-height: 1;
+    display: inline;
 }
 
 #celebration ul.row p.loc:after {
@@ -375,7 +375,7 @@ p:last-child.outro {
     }
 
     #hero .splash .announcement p {
-        font-size: 1.5rem;
+        font-size: 1.42rem;
     }
 
     #clock {
@@ -444,7 +444,7 @@ p:last-child.outro {
     }
 
     #hero .splash .announcement p {
-        font-size: 1.7vw;
+        font-size: 1.53vw;
     }
 
     #clock {
@@ -552,10 +552,6 @@ p:last-child.outro {
     ul.row li:last-child {
         margin: 0;
     }
-
-    /* #celebration ul.row li:nth-child(2) {
-        padding: 30px 0;
-    } */
 
     .content {
         width: 100%;
