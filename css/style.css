@@ -403,20 +403,13 @@ p:last-child.outro {
     }
 
     ul.row {
-        margin: 60px 7% 0;
+        margin: 30px 7% 0;
     }
 
     #celebration ul.row li {
         width: 30%;
     }
 
-    /* ul.row li {
-        display: inline-block;
-    }
-
-    #celebration ul.row li:nth-child(2) {
-        padding: 0 12%;
-    } */
 }
 
 @media only screen and (max-width:1600px) and (min-width:1025px) /* Tablet */ {
@@ -479,13 +472,6 @@ p:last-child.outro {
         width: 30%;
     }
 
-    /* ul.row li {
-        display: inline-block;
-    }
-
-    #celebration ul.row li:nth-child(2) {
-        padding: 0 12%;
-    } */
 }
 
 @media only screen and (max-width:1024px) and (min-width:300px) /* XL Mobile */ {
