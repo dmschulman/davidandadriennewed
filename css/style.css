@@ -310,11 +310,11 @@ p:last-child.outro {
     font-weight: 800;
     margin: 0 auto 5px;
     line-height: 1;
+    display: inline;
 }
 
 #celebration ul.row p.loc {
     line-height: 1;
-    display: inline;
 }
 
 #celebration ul.row p.loc:after {
