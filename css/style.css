@@ -52,6 +52,15 @@ h3 {
     margin: 30px auto;
 }
 
+h4 {
+    font-size: 1.2rem;
+    line-height: 1;
+    font-family: 'Prata', serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0 auto 10px;
+}
+
 a {
     font-weight: bold;
     text-decoration: underline;
@@ -409,8 +418,8 @@ p:last-child.outro {
         margin: 30px 7% 0;
     }
 
-    #celebration ul.row li {
-        width: 30%;
+    ul.row li {
+        width: 33.333%;
     }
 
 }
@@ -470,9 +479,9 @@ p:last-child.outro {
     ul.row {
         margin: 30px 6% 0;
     }
-
-    #celebration ul.row li {
-        width: 30%;
+    
+    ul.row li {
+        width: 33.333%;
     }
 
 }
