@@ -311,6 +311,9 @@ p:last-child.outro {
 
 span.attn {
     text-decoration: none;
+    display: block;
+    padding-top: 2rem;
+    margin: 0;
 }
 
 #celebration ul.row h3 {
