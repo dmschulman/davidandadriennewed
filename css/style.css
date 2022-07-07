@@ -41,7 +41,8 @@ h2 {
     margin: 0 0 10px 0;
 }
 
-h3 {
+h3,
+span.attn {
     font-size: 1.5rem;
     line-height: 1;
     font-family: 'Raleway', sans-serif;
@@ -308,6 +309,10 @@ p:last-child.outro {
     padding: 0 0 50px 0;
 }
 
+span.attn {
+    text-decoration: none;
+}
+
 #celebration ul.row h3 {
     margin: 20px auto;
 }
@@ -414,7 +419,7 @@ p:last-child.outro {
     }
 
     ul.row {
-        margin: 30px 7% 0;
+        margin: 30px 7%;
     }
 
     ul.row li {
@@ -476,7 +481,7 @@ p:last-child.outro {
     }
 
     ul.row {
-        margin: 30px 6% 0;
+        margin: 30px 6%;
     }
     
     ul.row li {
@@ -539,7 +544,7 @@ p:last-child.outro {
     }
 
     ul.row {
-        margin: 40px 40px 0 40px;
+        margin: 40px;
     }
 
     ul.row li {
