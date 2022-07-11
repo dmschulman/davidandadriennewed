@@ -96,8 +96,12 @@
                             <p>7:30 PM</p>
                         </li>
                     </ul>
-                    <p class="detail">
-                        <span class="attn">&rarr; Tune in to our ceremony's livestream by <a href="/live" target="_blank" rel="noopener noreferrer">clicking here</a>! &larr;</span>
+                    <p class="intro">
+                        Photography by: <a href="https://jflynnphoto.com/" title="J.Flynn" rel="noopener" target="_blank">J.Flynn</a><br />
+                        Entertainment by: Korey Oats, <a href="http://inthemixevents.com/" title="In The Mix Events" rel="noopener" target="_blank">In The Mix Events</a><br />
+                        Music by: DJ Saint James, <a href="http://inthemixevents.com/" title="In The Mix Events" rel="noopener" target="_blank">In The Mix Events</a><br />
+                        Flowers by: <a href="https://bluemoonflorist.com/" title="Blue Moon Florist" rel="noopener" target="_blank">Blue Moon Florist</a><br />
+                        Cake by: <a href="https://claysbakery.net/" title="Clay's Bakery" rel="noopener" target="_blank">Clay's Bakery</a>
                     </p>
                 </div>
             </section>
@@ -200,7 +204,7 @@
             }).on('update.countdown', function (event) {
                 if (event.elapsed) {
                     var totalHours = event.offset.totalDays * 24 + event.offset.hours;
-                    $(this).html(event.strftime('Married for<br />' + event.strftime('%-m months %-W weeks %-d days')));
+                    $(this).html(event.strftime('Married for<br />' + event.strftime('%-D days <3')));
                 }
                 else {
                     $(this).html(event.strftime(event.strftime('%-D day%!D') + '<p>to go...</p>')); // event.strftime('%-D days <br/> %-H hours')
