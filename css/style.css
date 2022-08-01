@@ -79,7 +79,8 @@ a:hover {
     color: #666666;
 }
 
-p {
+p,
+ul.span {
     font-family: 'Raleway', sans-serif;
     line-height: 1.5;
     margin: 0 auto;
@@ -285,7 +286,8 @@ ul.row li {
 }
 
 p.intro,
-p.outro {
+p.outro,
+ul.span {
     text-transform: uppercase;
     line-height: 1.5;
     margin: 0 auto;
@@ -293,7 +295,8 @@ p.outro {
     font-size: 1.1rem
 }
 
-p.intro {
+p.intro,
+ul.span {
     padding: 20px 0;
 }
 
@@ -413,7 +416,8 @@ span.attn {
         font-size: 3rem;
     }
 
-    p {
+    p,
+    ul.span {
         width: 60%;
     }
 
@@ -475,7 +479,8 @@ span.attn {
         font-size: 3vw;
     }
 
-    p {
+    p,
+    ul.span {
         width: 60%;
     }
 
@@ -542,7 +547,8 @@ span.attn {
         font-size: 2rem;
     }
 
-    p {
+    p,
+    ul.span {
         width: 80%;
     }
 
